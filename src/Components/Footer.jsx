@@ -1,7 +1,14 @@
 import React from "react";
 
 function Footer(){
-    return <p>Copyright © 2025</p>;
+    //Get dynamic year
+    const currentYear = new Date().getFullYear();
+    return (
+        <footer>
+            <p>Copyright © {currentYear}</p>
+        </footer>
+    )
+
 }
 
 export default Footer;

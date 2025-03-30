@@ -1,7 +1,7 @@
 //1. Create a new React app.
 import React from "react";
 import ReactDom from "react-dom";
-import App from "../Components/App";
+import App from "./Components/App";
 
 //2. Create a App.jsx component.
 //3. Create a Header.jsx component that renders a <header> element
@@ -17,4 +17,4 @@ import App from "../Components/App";
 
 ReactDom.render(
     <App />, document.getElementById("root")
-)
+);

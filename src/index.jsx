@@ -1,13 +1,24 @@
 import React from "react";
 import ReactDom from "react-dom";
 import App from "./Components/App";
+import notes from "../notes";
 
+// ------- PART 1 -------------
 ReactDom.render(
     <App />, document.getElementById("root")
 );
 
+// ------- PART 2 -------------
 
 
+
+
+
+
+// ------- PART 2 -------------
+//Render all the notes inside note.js as a separate Note component
+
+// ------- PART 1 -------------
 //1. Create a new React app.
 //2. Create a App.jsx component.
 //3. Create a Header.jsx component that renders a <header> element
